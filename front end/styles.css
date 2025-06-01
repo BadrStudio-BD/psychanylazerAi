@@ -1,0 +1,38 @@
+.box{
+    width: 100%;
+    min-height: 91vh;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background: #222831;
+}
+.title{
+    color: #ffffff;
+    position: absolute;
+    top: 0px;
+    transform: translate( 205%,500%);
+}
+.text{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0px 10px;
+    position: absolute;
+    top: 0px;
+    transform: translate( -75%,800%);
+}
+.send{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    position: absolute;
+    top: 0px;
+    transform: translate( 100%,800%);
+}
+.footer{
+    background-color: #ffffff;
+    color: #222831;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
